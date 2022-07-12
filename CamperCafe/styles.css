@@ -47,3 +47,19 @@ hr {
   text-align: right;
 }
 
+.bottom-line {
+  margin-top: 25px;
+}
+
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: black;
+}
+
+
+.address {
+  margin-bottom: 5px;
+}
