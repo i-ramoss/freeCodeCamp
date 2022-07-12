@@ -28,6 +28,11 @@ hr {
   background-color: brown;
   border-color: brown;
 }
+
+.established {
+  font-style: italic;
+}
+
 .item p {
   display: inline-block;
 }
