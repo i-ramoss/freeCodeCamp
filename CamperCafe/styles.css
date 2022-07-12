@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  padding: 20px;
 
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
@@ -15,6 +16,16 @@ h2 {
   font-family: Impact, serif;
 }
 
+h1 {
+  font-size: 40px;
+
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
 
 img {
   display: block;
@@ -47,6 +58,10 @@ hr {
 
 .item p {
   display: inline-block;
+
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .flavor,
