@@ -4,11 +4,14 @@ body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   text-align: center;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Impact, serif;
 }
 
@@ -46,8 +49,9 @@ hr {
   display: inline-block;
 }
 
-.flavor, .dessert {
-  width: 75%;
+.flavor,
+.dessert {
+  width: 74%;
   text-align: left;
 }
 
