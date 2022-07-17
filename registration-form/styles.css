@@ -33,6 +33,10 @@ fieldset:last-of-type {
   border-bottom: none;
 }
 
+a {
+  color: #dfdfe2;
+}
+
 input,
 textarea,
 select {
