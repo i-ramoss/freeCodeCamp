@@ -45,6 +45,14 @@ textarea {
   background-color: #0a0a23;
   border: 1px solid #0a0a23;
 }
+
+.inline {
+  width: unset;
+  margin: 0;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
 label {
   display: block;
   margin: 0.5rem 0;
