@@ -61,3 +61,16 @@ label {
   display: block;
   margin: 0.5rem 0;
 }
+
+input[type="submit"] {
+  display: block;
+
+  width: 60%;
+  min-width: 300px;
+  height: 2em;
+  margin: 1em auto;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  background-color: #3b3b4f;
+  border-color: white;
+}
