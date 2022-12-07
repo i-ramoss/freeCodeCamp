@@ -26,10 +26,15 @@ header h1 {
 .divider {
   border-bottom: 1px solid #888989;
   margin: 2px 0;
+  clear: right;
 }
 
 .lg {
   height: 10px;
+}
+
+.md {
+  height: 5px;
 }
 
 .lg,
@@ -62,4 +67,16 @@ p {
 .calories-info span {
   font-size: 1.2em;
   margin-top: -7px;
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+.dbl-indent {
+  margin-left: 2em;
 }
