@@ -27,6 +27,10 @@ h2 {
   border-bottom: 4px solid #dfdfe2;
 }
 
+p::before {
+  content: "Question #";
+}
+
 nav > ul {
   display: flex;
   justify-content: space-evenly;
