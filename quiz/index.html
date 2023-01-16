@@ -56,7 +56,7 @@
         </section>
 
         <section role="region" aria-labelledby="html-questions">
-          <h2 id="html-questions">HTML Questions</h2>
+          <h2 id="html-questions">HTML</h2>
 
           <div class="question-block">
             <p>1</p>
@@ -132,7 +132,39 @@
         </section>
 
         <section role="region" aria-labelledby="css-questions">
-          <h2 id="css-questions">CSS Questions</h2>
+          <h2 id="css-questions">CSS</h2>
+
+          <div class="formrow">
+            <div class="question-block">
+              <label for="front-end-question"
+                >Are you a frontend developer?</label
+              >
+            </div>
+            <div class="answer">
+              <select
+                name="front-end-question"
+                id="front-end-question"
+                required
+              >
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+
+            <div class="question-block">
+              <label for="question-textarea">Do you have any questions:</label>
+            </div>
+            <div class="answer">
+              <textarea
+                name="question-textarea"
+                id="question-textarea"
+                cols="30"
+                rows="5"
+                placeholder="How do I become a front-end developer?"
+              ></textarea>
+            </div>
+          </div>
         </section>
       </form>
     </main>
