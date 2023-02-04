@@ -1,18 +1,18 @@
 span[class~="sr-only"] {
-  border: 0;
+  border: 0 !important;
 
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
-  -webkit-clip-path: inset(50%);
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  clip-path: inset(50%) !important;
+  -webkit-clip-path: inset(50%) !important;
 
-  width: 1px;
-  height: 1px;
+  width: 1px !important;
+  height: 1px !important;
 
-  overflow: hidden;
-  white-space: nowrap;
-  position: absolute;
-  margin: -1px;
-  padding: 0;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  position: absolute !important;
+  margin: -1px !important;
+  padding: 0 !important;
 }
 
 html {
