@@ -23,7 +23,7 @@ a:active {
   height: 100vh;
   border-right: 4px solid gray;
 
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
