@@ -26,6 +26,8 @@ a:active {
   position: fixed;
   top: 0;
   left: 0;
+
+  overflow-y: hidden;
 }
 
 #navbar header {
@@ -89,4 +91,14 @@ a:active {
   line-height: 2;
   padding: 10px;
   margin-left: 1rem;
+}
+
+@media (max-width: 640px) {
+  #navbar {
+    display: none;
+  }
+
+  #main-doc {
+    left: 15px;
+  }
 }
