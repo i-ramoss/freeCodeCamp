@@ -123,3 +123,17 @@ a:active {
   max-width: 79rem;
 }
 
+/* how it works */
+
+#how-it-works {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 5rem;
+}
+
+#video {
+  width: 100%;
+  max-width: 55rem;
+  height: 31rem;
+}
