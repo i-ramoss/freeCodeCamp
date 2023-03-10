@@ -53,7 +53,7 @@ a:active {
 
 .view-products {
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 
 #form {
@@ -84,5 +84,42 @@ a:active {
   font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+/* features */
+
+#features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 5rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 10rem;
+  height: 11rem;
+
+  font-size: 1.5rem;
+  color: darkorange;
+}
+
+.text h3 {
+  font-size: 2.6rem;
+}
+
+.text p {
+  font-size: 1.6rem;
+  max-width: 79rem;
 }
 
