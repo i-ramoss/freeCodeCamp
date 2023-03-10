@@ -209,3 +209,31 @@ ol {
   background-color: orange;
   transition: 0.3s;
 }
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1rem;
+
+  margin: 5rem auto 0 auto;
+  width: 100%;
+  max-width: 96rem;
+  padding: 2rem;
+  background-color: #dddddd;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+
+  font-size: 1.6rem;
+}
+
+.license {
+  font-size: 1.4rem;
+  color: #444444;
+}
