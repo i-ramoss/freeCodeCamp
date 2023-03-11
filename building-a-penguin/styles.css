@@ -1,5 +1,6 @@
 :root {
   --penguin-face: white;
+  --penguin-picorna: orange;
 }
 
 body {
@@ -154,7 +155,7 @@ body {
 
 .beak {
   height: 10%;
-  background-color: orange;
+  background-color: var(--penguin-picorna);
   border-radius: 50%;
 }
 
@@ -179,7 +180,7 @@ body {
   color: #6a6969;
 
   top: 165px;
-  left: 127.5;
+  left: 127.5px;
 
   z-index: 1;
 }
@@ -206,8 +207,6 @@ body {
 
   top: 40%;
   left: 23.5%;
-
-  z-index: 0;
 }
 
 .penguin-body::before {
@@ -222,6 +221,29 @@ body {
   position: absolute;
   top: 10%;
   left: 25%;
+}
+
+.foot {
+  width: 15%;
+  height: 30%;
+  background-color: var(--penguin-picorna);
+  border-radius: 50%;
+
+  top: 85%;
+
+  z-index: -1;
+}
+
+.foot.left {
+  left: 25%;
+
+  transform: rotate(80deg);
+}
+
+.foot.right {
+  right: 25%;
+
+  transform: rotate(-80deg);
 }
 
 /* ground */
