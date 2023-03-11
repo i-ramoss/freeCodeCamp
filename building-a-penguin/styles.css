@@ -172,6 +172,25 @@ body {
   left: 42%;
 }
 
+/* penguin shirt */
+
+.shirt {
+  font: bold 25px Helvetica, sans-serif;
+  color: #6a6969;
+
+  top: 165px;
+  left: 127.5;
+
+  z-index: 1;
+}
+
+.shirt div {
+  font: 25px Helvetica, sans-serif;
+
+  top: 22.5px;
+  left: 12px;
+}
+
 /* penguin body */
 
 .penguin-body {
