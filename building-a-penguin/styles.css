@@ -44,6 +44,51 @@ body {
   right: -75px;
 }
 
+.penguin {
+  width: 300px;
+  height: 300px;
+  margin: 75px auto 0 auto;
+
+  z-index: 4;
+  position: relative;
+}
+
+.penguin * {
+  position: absolute;
+}
+
+
+.penguin-body {
+  width: 53%;
+  height: 45%;
+  background: linear-gradient(
+    45deg,
+    rgb(134, 133, 133) 0%,
+    rgb(234, 231, 231) 25%,
+    white 67%
+  );
+  border-radius: 80% 80% 100% 100%;
+
+  top: 40%;
+  left: 23.5%;
+
+  z-index: 0;
+}
+
+.penguin-body::before {
+  content: "";
+
+  width: 50%;
+  height: 45%;
+  background-color: gray;
+  border-radius: 0% 0% 100% 100%;
+  opacity: 70%;
+
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+
 .ground {
   width: 100vw;
   height: 400px;
