@@ -4,7 +4,7 @@ In this project I developed a very simple page about cats in order to learn the 
 
 ## :confetti_ball: Preview:
 
-<!-- <img src="./assets/rocket-link-screenshot.png" alt="" height="400px" /> -->
+<img src="./cat-photo-app.png" alt="" height="400px" />
 
 ---
 
