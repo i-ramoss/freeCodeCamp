@@ -31,6 +31,8 @@ These projects was developed using the following technologies:
 
 ### 📌 Certification Projects:
 
+*The portfolio project is in production through GitHub Pages and can be accessed through this link: https://iramoss.github.io/freeCodeCamp/*
+
 - [Survey Form](https://github.com/i-ramoss/freeCodeCamp/tree/main/survey-form)
 - [Tribute Page](https://github.com/i-ramoss/freeCodeCamp/tree/main/tribute-page)
 - [Technical Documentation Page](https://github.com/i-ramoss/freeCodeCamp/tree/main/techinical-documentation-page)
